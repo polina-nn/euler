@@ -28,6 +28,8 @@ library
       FactorialDigitSum
       Fibonacci
       MultiplesOf3Or5
+      PowerDigitSum
+      Prime
       SumSquareDifference
   other-modules:
       Paths_euler
@@ -36,6 +38,7 @@ library
   ghc-options: -Wall -Wcompat -Widentities -Wincomplete-record-updates -Wincomplete-uni-patterns -Wmissing-export-lists -Wmissing-home-modules -Wpartial-fields -Wredundant-constraints
   build-depends:
       base >=4.7 && <5
+    , primes
   default-language: Haskell2010
 
 executable euler-exe
@@ -48,6 +51,7 @@ executable euler-exe
   build-depends:
       base >=4.7 && <5
     , euler
+    , primes
   default-language: Haskell2010
 
 test-suite euler-test
@@ -61,4 +65,5 @@ test-suite euler-test
   build-depends:
       base >=4.7 && <5
     , euler
+    , primes
   default-language: Haskell2010

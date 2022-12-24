@@ -1,7 +1,8 @@
 module FactorialDigitSum
   ( factorialDigitSum,
     factorial,
-    digits',
+ 
+
   )
 where
 
@@ -15,3 +16,5 @@ digits' num = map Char.digitToInt (show (factorial num 1))
 
 factorialDigitSum :: Integer -> Int
 factorialDigitSum num = let digits = map Char.digitToInt (show (factorial num 1)) in sum digits
+
+
