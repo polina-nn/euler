@@ -7,5 +7,5 @@ My solutions problems from https://projecteuler.net/
 2. You must use Stack
 ```haskell
 stack build
-stack exec news-exe
+stack exec euler-exe
 ```
