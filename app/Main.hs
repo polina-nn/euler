@@ -6,6 +6,7 @@ import qualified MultiplesOf3Or5 as MOO
 import qualified SumSquareDifference as SSD
 import qualified PowerDigitSum as PDS
 import qualified Prime as P 
+import qualified LargestPalindromeProduct as LPP 
 
 main :: IO ()
 main = do
@@ -27,3 +28,5 @@ main = do
   putStrLn $ show (P.primeByIndex 10001)
   putStrLn $ "9. Summation of primes (problem 10). The sum of all the primes below two million is "
   putStrLn $ show (P.summationOfPrimes 2000000)
+  putStrLn $ "10. Largest palindrome product (problem 4). The largest palindrome made from the product of two 3-digit numbers is "
+  putStrLn $ show (LPP.largestPalindromeProduct)

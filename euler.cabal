@@ -27,6 +27,7 @@ library
   exposed-modules:
       FactorialDigitSum
       Fibonacci
+      LargestPalindromeProduct
       MultiplesOf3Or5
       PowerDigitSum
       Prime
